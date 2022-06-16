@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Registration page</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <header>
+    <nav>
+      <a href="index.html">Home</a> |
+      <a href="contact.html">Contact</a> |
+      <a href="register.html">Registration</a> |
+      <a href="signin.html">Sign In</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <h1 class="register-heading">Registration Page</h1>
+    <form name="registration" class="registartion-form" onsubmit="return formValidation()">
+      <table>
+        <tr>
+          <td><label for="name">First Name:</label></td>
+          <td><input class="register-input" type="text" name="name" id="name" placeholder="your name" required></td>
+        </tr>
+        <tr>
+          <td><label for="name">Last Name:</label></td>
+          <td><input class="register-input" type="text" name="name" id="name" placeholder="your name" required></td>
+        </tr>
+        <tr>
+          <td><label for="email">Email:</label></td>
+          <td><input class="register-input" type="email" name="email" id="email" placeholder="your email" required></td>
+        </tr>
+        <tr>
+          <td><label for="password">Password:</label></td>
+          <td><input class="register-input" type="password" name="password" id="password" required></td>
+        </tr>
+        <td colspan="2"><input type="submit" class="submit" value="Register" /></td>
+        </tr>
+      </table>
+    </form>
+  </div>
+
+  <footer class="content-footer">
+    <p>Connect with me on these social networks:</p>
+    <ul class="social">
+      <li><a class="social-text" href="https://github.com/asbenjamin">GitHub</a></li>
+      <li><a class="social-text" href="https://twitter.com/Jshamben_py">Twitter</a></li>
+    </ul>
+
+  </footer>
+</body>
+
+</html>
